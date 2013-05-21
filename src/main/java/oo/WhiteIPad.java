@@ -9,6 +9,6 @@ public class WhiteIPad extends BlackIPad {
     }
 
     public int getPrice() {
-        return super.getPrice() + 200;
+        return iPad.getPrice() + 200;
     }
 }
