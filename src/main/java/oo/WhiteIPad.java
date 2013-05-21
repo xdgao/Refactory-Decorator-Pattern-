@@ -4,8 +4,12 @@ public class WhiteIPad extends BlackIPad {
 
     private IPad iPad;
 
-    public WhiteIPad() {
+    private WhiteIPad() {
         this.iPad = new BlackIPad();
+    }
+
+    public static WhiteIPad createWhiteIPad() {
+        return new WhiteIPad();
     }
 
     public int getPrice() {

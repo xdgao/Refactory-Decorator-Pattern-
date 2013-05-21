@@ -14,13 +14,13 @@ public class IPadPriceTest {
 
     @Test
     public void shouldGetCorrectPriceForWhiteIPad(){
-        IPad iPad = new WhiteIPad();
+        IPad iPad = WhiteIPad.createWhiteIPad();
         assertThat(iPad.getPrice(), is(3688 + 200));
     }
     
     @Test
     public void shouldGetCorrectPriceForRedIPad(){
-        IPad iPad = new RedIPad();
+        IPad iPad = RedIPad.createRedIPad();
         assertThat(iPad.getPrice(), is(3688 + 400));
     }
 }
