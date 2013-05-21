@@ -4,12 +4,8 @@ public class RedIPad extends BlackIPad {
 
     private IPad iPad;
 
-    private RedIPad(IPad iPad) {
+    public RedIPad(IPad iPad) {
         this.iPad = iPad;
-    }
-
-    public static RedIPad createRedIPad() {
-        return new RedIPad(new BlackIPad());
     }
 
     public int getPrice() {
