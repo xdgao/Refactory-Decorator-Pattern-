@@ -1,6 +1,6 @@
 package oo;
 
-public class RedIPad extends BlackIPad {
+public class RedIPad implements IPad {
 
     private IPad iPad;
 
